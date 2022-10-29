@@ -1,5 +1,6 @@
 package com.example.zamin.agrome.onBoarding
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,6 +8,7 @@ import com.example.zamin.agrome.databinding.ActivityOnBoardingBinding
 import com.example.zamin.agrome.onBoarding.fragment.FirstFragment
 import com.example.zamin.agrome.onBoarding.fragment.SecondFragment
 import com.example.zamin.agrome.onBoarding.fragment.ThreeFragment
+import com.example.zamin.agrome.onBoarding.login.activity.LoginActivity
 
 class OnBoardingActivity : AppCompatActivity(), FirstFragment.FirstBtn, SecondFragment.SecondBtn,
     ThreeFragment.ThreeBtn {
@@ -29,7 +31,8 @@ class OnBoardingActivity : AppCompatActivity(), FirstFragment.FirstBtn, SecondFr
     }
 
     override fun setOnClickListener3() {
-        
+        startActivity(Intent(this,LoginActivity::class.java))
+        finish()
     }
 
     override fun onBackPressed() {
