@@ -1,4 +1,4 @@
-package com.example.zamin.agrome
+package com.example.zamin.agrome.main.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

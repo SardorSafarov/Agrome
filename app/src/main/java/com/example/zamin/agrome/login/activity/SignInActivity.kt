@@ -1,4 +1,4 @@
-package com.example.zamin.agrome.onBoarding.login.activity
+package com.example.zamin.agrome.login.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
