@@ -11,5 +11,12 @@ class SupportActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivitySupportBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        back()
+    }
+
+    private fun back() {
+        binding.btnBack.setOnClickListener {
+            finish()
+        }
     }
 }
