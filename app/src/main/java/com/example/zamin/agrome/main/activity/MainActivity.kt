@@ -8,8 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
 import com.example.zamin.agrome.R
 import com.example.zamin.agrome.databinding.ActivityMainBinding
-import com.example.zamin.agrome.extensions.D
-import com.example.zamin.agrome.main.activity.drawerInActivity.ForTheOfferActivity
+import com.example.zamin.agrome.main.activity.drawerInActivity.ForTheOfferLinkActivity
 import com.example.zamin.agrome.main.activity.drawerInActivity.ProposalOrComplaintActivity
 import com.example.zamin.agrome.main.activity.drawerInActivity.SupportActivity
 import com.example.zamin.agrome.main.fragments.ChatFragment
@@ -85,7 +84,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                   startActivity(Intent(this, ProposalOrComplaintActivity::class.java))
             }
             R.id.btn_for_offer -> {
-                startActivity(Intent(this, ForTheOfferActivity::class.java))
+                startActivity(Intent(this, ForTheOfferLinkActivity::class.java))
             }
             R.id.btn_support -> {
                startActivity(Intent(this, SupportActivity::class.java))

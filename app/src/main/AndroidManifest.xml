@@ -20,7 +20,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".main.activity.drawerInActivity.ForTheOfferActivity"
+            android:name=".main.activity.drawerInActivity.ForTheOfferLinkActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

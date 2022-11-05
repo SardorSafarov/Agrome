@@ -13,4 +13,10 @@
         <item name="android:statusBarColor">#43b658</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="CustomRadioTheme" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:colorControlNormal">#7a7a7a</item>
+        <item name="android:colorControlActivated">#FF9800</item>
+        <item name="android:colorControlHighlight">#FF9800</item>
+    </style>
 </resources>
