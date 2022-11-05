@@ -12,6 +12,7 @@ import com.example.zamin.agrome.onBoarding.fragment.LanguageFragment
 import com.example.zamin.agrome.onBoarding.fragment.SecondFragment
 import com.example.zamin.agrome.onBoarding.fragment.ThreeFragment
 import com.example.zamin.agrome.login.activity.LoginActivity
+import com.example.zamin.agrome.main.activity.MainActivity
 
 class OnBoardingActivity : AppCompatActivity(), FirstFragment.FirstBtn, SecondFragment.SecondBtn,
     ThreeFragment.ThreeBtn, LanguageFragment.Listener {
@@ -24,6 +25,10 @@ class OnBoardingActivity : AppCompatActivity(), FirstFragment.FirstBtn, SecondFr
         binding = ActivityOnBoardingBinding.inflate(layoutInflater)
         setContentView(binding.root)
         sharedPreferences = SharedPerferenceHelper(this)
+        if (sharedPreferences.getOnboarding()=="done"){
+            startActivity(Intent(this,LoginActivity::class.java))
+            finish()
+        }
         adapterFragment = ViewPageAdapter(items, this)
         binding.onboarding.adapter = adapterFragment
     }

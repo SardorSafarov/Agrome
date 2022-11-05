@@ -7,10 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.zamin.agrome.BaseFragment
 import com.example.zamin.agrome.R
-import com.example.zamin.agrome.databinding.FragmentNewBinding
+import com.example.zamin.agrome.databinding.FragmentChatBinding
 
-
-class NewFragment : BaseFragment<FragmentNewBinding>(FragmentNewBinding::inflate) {
+class ChatFragment :BaseFragment<FragmentChatBinding>(FragmentChatBinding::inflate) {
     override fun onViewCreate() {
 
     }

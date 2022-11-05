@@ -13,6 +13,27 @@
         android:theme="@style/Theme.Agrome"
         tools:targetApi="31">
         <activity
+            android:name=".main.activity.drawerInActivity.SupportActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".main.activity.drawerInActivity.ForTheOfferActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".main.activity.drawerInActivity.ProposalOrComplaintActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".login.activity.SignUpActivity"
             android:exported="false">
             <meta-data

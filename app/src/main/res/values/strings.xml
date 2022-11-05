@@ -5,8 +5,7 @@
     <string name="yordam">Yordam</string>
     <string name="ko_proq">Ko\'proq</string>
     <string name="xizmatlar">Xizmatlar</string>
-    <string name="menyu">Menyu</string>
+    <string name="menyu">Menu</string>
     <string name="yangi">Yangi</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

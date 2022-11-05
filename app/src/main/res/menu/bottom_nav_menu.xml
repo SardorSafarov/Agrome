@@ -3,27 +3,27 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/asosiy"
+        android:id="@+id/btn_main"
         android:icon="@drawable/ic_home"
         app:showAsAction="always"
         android:title="@string/asosiy" />
 
     <item
-        android:id="@+id/explore"
+        android:id="@+id/btn_service"
         app:showAsAction="always"
         android:title="@string/xizmatlar" />
 
     <item
-        android:id="@+id/save"
+        android:id="@+id/btn_new"
         app:showAsAction="always"
         android:title="@string/yangi" />
     <item
-        android:id="@+id/chat"
+        android:id="@+id/btn_chat"
         android:icon="@drawable/ic_chat"
         app:showAsAction="always"
         android:title="@string/yordam" />
     <item
-        android:id="@+id/kuproq"
+        android:id="@+id/btn_menyu"
         android:icon="@drawable/ic_kuproq_ic"
         app:showAsAction="always"
         android:title="@string/menyu" />

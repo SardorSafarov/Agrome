@@ -2,18 +2,18 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/chap_menu_profil"
+        android:id="@+id/btn_proposal_or_complaint"
         android:title="Taklif yoki shikoyat"
         app:showAsAction="always"
         />
     <item
-        android:id="@+id/chap_menu_valuta_kursi"
+        android:id="@+id/btn_for_offer"
         android:title="Taklif uchun havola"
         app:showAsAction="always"
         />
     <item
-        android:id="@+id/chap_menu_kup_savol"
-    android:title="Qo’llab quvvatlash xizmati"
+        android:id="@+id/btn_support"
+        android:title="Qo’llab quvvatlash xizmati"
         app:showAsAction="always"/>
     <item
         android:id="@+id/chap_menu_offerta"
